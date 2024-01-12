@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h1{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+}
+h3{
+    width: 149px;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+
+}
+
+#home-points1{
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px; /* 140.74% */
+}
+
+#home-points2{
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px; /* 140.74% */
+}
+
+
+button{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    margin-left: 15px;
+}
+#button-numbers{
+    flex-shrink: 0;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px; /* 154.509% */
+    width: 30px;
+    height: 26px;
+}
+#button-clear{
+    margin-top: 320px;
+    flex-shrink: 0;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px; /* 154.509% */
+    width: 110px;
+    height: 26px;
+}
+
