@@ -65,3 +65,17 @@ function incrementGuestByThree(){
     guestCount = guestCount + 3
     guestScore.innerText = guestCount
 }
+function winner(){
+    if (homeCount > guestCount) {
+        document.getElementById("home-points1").style.color="green"
+        document.getElementById("home-points2").style.color="red"
+
+      } else if (homeCount == guestCount) {
+        document.getElementById("home-points1").style.color="green"
+        document.getElementById("home-points2").style.color="green"
+        
+      } else {
+        document.getElementById("home-points2").style.color="green"
+        document.getElementById("home-points1").style.color="red"
+      }
+}
